@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-      stage('Build') {
+      stage('Tests') {
           steps {
             sh './gradlew clean test '
           }
